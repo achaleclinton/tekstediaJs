@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="Vanessa">
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>TOP RANKING BOOKS</title>
+</head>
+<body>
+	<div div class='container-fluid'>
+		<div class='form' style='background: skyblue'>
+	<h1 class="page-header text-center">TOP RANKING BOOKS  <small><strong>Top Best Selling Books of All Times</strong></small></h1>
+</div>
+</div>
+	<p>Over the years, books have been written in all the diverse ways of live. The most recently sold ones are on<b> FINANCE,HOW TO MANAGE FINANCE, </b>and go about the <b>CIRCULATION OF FINANCE.</b><b>THRILLER</b>,<b>ROMANCE</b></p>
+ <!--<div class='card'>
+		<div class='card-block'> -->
+<div class="container-fluid">
+		 <div class="form-group " style="background: green;border-radius: 25%;">
+
+			 <button type="button" style='background-color:yellow'onclick="quote()">Click</button><br>
+			 <div class="cont-2  text-center" id="quote" style="width: 500px; height: 200px"></div>
+			<br>
+			 <div class='form'style='background-color: pink'>
+			 <footer class="cont-3">quote by<div class='  text-center' style="width: 150px; height: 50px; border:1px solid black;background-color: pink" id="author"></footer></div>
+		</div>
+</div>
+
+		<script>
+ 	var quotes = [ {
+ 		quote:"LOVE THE ROOVING MAN ",
+ 		author:"Egbe"
+ 	},
+ 	 {
+ 		quote:" RICH DAD,POOR DAD",
+ 		author:"Tabe"
+ 	},
+ 	 {
+ 		quote:"KILL THE DEAD AGAIN ",
+				author:"Enow"
+ 	},
+ 	{
+ 		quote:"DEAD MEN TELL NO TALE ",
+ 		author:"Eyong"
+ 			},
+ 	{
+ 		quote:"DEVIL ON THE CROSS",
+ 		author:"Ayuk"
+ 	},
+ 	{
+ 		quote:"SLEEPING WITH THE ENEMY and ENEMY IN MY BED",
+ 			author:"Ashu"
+ 	}]
+ 	function quote(){
+ 		var random = Math.floor((Math.random()*5)+1)
+ 		document.querySelector("#quote").innerHTML=quotes[random].quote
+ 		document.querySelector("#author").innerHTML=quotes[random].author
+}
+	</script>
+<p>There are many other books. Fill your information to gain complete access to our platforms. Enjoy our services...</p>
+<div class='container'>
+	<form>
+		<div class='form-group'>
+			<label>Name</label>
+			<input type='text' class='form-control' placeholder='Add Name'>
+		</div>
+
+		<div class='form-group'>
+			<label>Email</label>
+			<input type='email' class='form-control' placeholder='Add Email'>
+		</div>
+	</form>
+	<div class='form-group'>
+		<label>Message</label>
+		<select class='form-control'>
+			<option value='male'></option>
+			<option value='female'></option>
+			<option value='other'></option>
+		</select>
+		</div>
+	<div class='form-group'>
+		<label>Download</label>
+		<input type='file'>
+		<p class='help-block'>Only PDF and WAPS allowed</p>
+	</div>
+
+	<div c;ass='checkbox'>
+		<label>
+			<input type='checkbox'> Check me out using Django </label>
+		</div>
+
+<button type='sbmit' class='btn btn-default'>Submit</button>
+	</form>
+	<hr>
+
+	<form clas='form-inline'>
+		<div class='form-group'>
+			<label>Email</label>
+			<input type='email class='form-control
+ plassholder='Email'>
+</div>
+</body>
+</html>
